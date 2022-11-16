@@ -54,10 +54,11 @@ function random(min,max){
 }
 
 async function apiimage(value){
+    let apikeytwo = "apikey";
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'c6d0c788d9mshdb47dc22d562957p10db0ejsnccec7e1fc926',
+            'X-RapidAPI-Key': apikeytwo,
             'X-RapidAPI-Host': 'bing-image-search1.p.rapidapi.com'
         }
     };
