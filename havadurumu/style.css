@@ -1,0 +1,301 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    object-fit: cover;
+}
+
+.tumsayfaalani{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    border: none;
+    outline: none;
+    background-image: url("resim.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.formalani{
+    position: relative;
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    height: auto;
+    text-align: center;
+}
+
+form{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    border: none;
+    outline: none;
+    height: auto;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.text{
+    position: relative;
+    display: inline-block;
+    height: auto;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    user-select: none;
+}
+
+.input{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    height: auto;
+    border: none;
+    outline: none;
+}
+
+.input input{
+    position: relative;
+    width: 50%;
+    height: 35px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.input label{
+    position: relative;
+    height: 35px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.input label i{
+    color: #fff;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.searchresult{
+    position: absolute;
+    display: none;
+    width: 50%;
+    height: auto;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 5px;
+    background: #fff;
+    padding: 5px;
+    top: 90%;
+    left: 48.4%;
+    transform: translate(-48.4%);
+    z-index: 999;
+    margin-right: 20px;
+}
+
+.searchresult .result{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    text-align: left;
+    background: #fff;
+    margin-top: 5px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.result:hover{
+    background: gainsboro;
+}
+
+.result img{
+    position: relative;
+    width: 10%;
+    height: auto;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.city,.region{
+    position: relative;
+    display: inline-block;
+    margin-right: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    user-select: none;
+}
+
+.centertext{
+    position: relative;
+    display: inline-block;
+    color: rgb(59, 54, 54);
+    margin: 0 auto;
+    user-select: none;
+}
+
+.weathercontent{
+    position: relative;
+    display: block;
+    width: 20%;
+    height: auto;
+    border: none;
+    outline: none;
+    background: rgba(255,255,255,0.6);
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 70px;
+    user-select: none;
+}
+
+.weathercontent .content{
+    padding: 20px;
+}
+
+.weathercontent .header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: auto;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-left: -20px;
+}
+
+.weathercontent .header img{
+    width: 100px;
+    height: 100px;
+}
+
+.headertext{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: none;
+    outline: none;
+    height: auto;
+    margin-top: 22px;
+}
+
+.headertext span{
+    font-size: 25px;
+    font-weight: 600;
+    color: #2595b3;
+}
+
+.headertext small{
+    font-size: 15px;
+    margin-top: 5px;
+    color: #8293bd;
+    font-weight: 500;
+}
+
+.main{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.main .derece{
+    font-size: 100px;
+    color: #fff;
+}
+
+.main .dereceicon{
+    position: absolute;
+    font-size: 25px;
+    color: #2595b3;
+    font-weight: 600;
+    text-align: start;
+    top: 60px;
+}
+
+.footer{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: auto;
+    border: none;
+    outline: none;
+}
+.footer .input{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer .input:last-child{
+    margin-left: 0;
+}
+
+.footer .input img{
+    width: 40px;
+    height: 40px;
+}
+
+.footer .input i{
+    font-size: 40px;
+}
+
+.footer .input span{
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: -7px;
+}
+
+.main,
+.footer{
+    padding: 50px 0 50px 0;
+}
+
+

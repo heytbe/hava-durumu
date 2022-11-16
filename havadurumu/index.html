@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+</head>
+<body>
+<div class="tumsayfaalani">
+    <div class="formalani">
+        <form  method="post">
+            <p class="text">Hava Durumu</p>
+            <div class="input">
+                <input type="text" name="text" id="search" placeholder="Search" autocomplete="off">
+                <label for="search"><i class="fas fa-search"></i></label>
+                <div class="searchresult"></div>
+            </div>
+        </form>
+    </div>
+    <div class="weathercontent">
+        <div class="content">
+       <div class="header">
+           <img src="http://cdn.weatherapi.com/weather/64x64/night/113.png" alt="">
+           <div class="headertext">
+               <span>Bugün</span>
+               <small>16.11.2022 03:00</small>
+           </div>
+       </div>
+        <div class="main">
+            <span class="derece">10</span>
+            <span class="dereceicon">°C</span>
+        </div>
+        <div class="footer">
+            <div class="input">
+                <i class="fa-solid fa-wind"></i>
+                <span class="wind">50</span>
+            </div>
+            <div class="input">
+                <img src="humidity.png" alt="">
+                <span class="humidity">60</span>
+            </div>
+            <div class="input">
+                <img src="basinc.png" alt="">
+                <span class="basinc">60</span>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
