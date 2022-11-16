@@ -4,7 +4,7 @@ let searchinput = document.querySelector("#search"),
     body = document.querySelector("body"),
     tumsayfa = document.querySelector(".tumsayfaalani");
 
-let apikey = "118d22ed3b424ff583a220120221311";
+let apikey = "apikey";
 
 searchinput.addEventListener("keyup",havadurumu);
 searchinput.addEventListener("keydown",havadurumu);
